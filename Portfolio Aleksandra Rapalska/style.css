@@ -1,0 +1,71 @@
+
+.body1{
+    /* background: -webkit-linear-gradient(left, #f77fd3, #f7e0f1); */
+    background: -webkit-linear-gradient(left, #2e2d2e, #ada7ac);
+}
+body{
+    background-image: url("./images/d192.jpg");
+	background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment:fixed;
+    height:100%;
+    width:100%;
+    float: left;
+}
+
+.u-blowUpImg:hover {
+    cursor: zoom-in; /* Kursor przybliżenia */
+  }
+
+.contact-form{
+
+    margin-top: 10%;
+    margin-bottom: 7.7%;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #f7bae7;
+}
+.contact-form .btnContact {
+    width: 100%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #f7bae7;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+
